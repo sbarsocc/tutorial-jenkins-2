@@ -1,8 +1,9 @@
-# Tutorial Jenkins 2 – Configuración pipeline
+# Curso DevOps Axpe Consulting – Configuración pipeline
 
 
 ## Información
-Este repositorio incluye la aplicación de ejemplo y la configuración el pipeline de Jenkis utilizado en el tutorial [Tutorial Jenkins 2 – Configuración pipeline](http://dmunozfer.es/tutorial-jenkins-2-configuracion-pipeline)
+Este repositorio incluye la aplicación de ejemplo y la configuración el pipeline de Jenkis utilizado en el tutorial.
+
 
 ## Contenido del tutorial
 
