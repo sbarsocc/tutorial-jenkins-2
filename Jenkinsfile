@@ -4,7 +4,7 @@ node {
    // ------------------------------------
    // -- ETAPA: Compilar
    // ------------------------------------
-   stage 'Build/Compilar2'
+   stage 'Build/Compilar'
    
    // -- Configura variables
    echo 'Configurando variables'
