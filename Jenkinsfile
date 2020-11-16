@@ -4,7 +4,7 @@ node {
    // ------------------------------------
    // -- ETAPA: Compilar
    // ------------------------------------
-   stage 'Compilar'
+   stage 'Build'
    
    // -- Configura variables
    echo 'Configurando variables'
@@ -40,14 +40,14 @@ node {
    // ------------------------------------
    // -- ETAPA: Instalar
    // ------------------------------------
-   stage 'Instalar'
+   stage 'Install'
    echo 'Instala el paquete generado en el repositorio maven'
    sh 'mvn install -Dmaven.test.skip=true'
    
    // ------------------------------------
    // -- ETAPA: Archivar
    // ------------------------------------
-   stage 'Archivar'
+   stage 'Deploy/Archive'
    echo 'Archiva el paquete el paquete generado en Jenkins'
    step([$class: 'ArtifactArchiver', artifacts: '**/target/*.jar, **/target/*.war', fingerprint: true])
 }
